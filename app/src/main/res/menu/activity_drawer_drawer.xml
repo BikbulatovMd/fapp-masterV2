@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_repositories"
+            android:icon="@drawable/house"
+            android:title="Repositories" />
+
+        <item
+            android:id="@+id/nav_contacts"
+            android:icon="@drawable/phone_call"
+            android:title="Contacts" />
+
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/settings"
+            android:title="Info" />
+
+        <item
+            android:id="@+id/nav_photos"
+            android:icon="@drawable/photo_camera"
+            android:title="Photo and Sensor" />
+
+        <item
+            android:id="@+id/nav_maps"
+            android:icon="@drawable/placeholder"
+            android:title="Maps" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="LogOut"/>
+    </group>
+
+</menu>
